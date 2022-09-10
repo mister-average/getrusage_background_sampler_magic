@@ -1,5 +1,5 @@
 # How to use this
-- First, install the ipynb module, which will let you import this notebook as if it were a Python module.  You need to install a specific fork of the ipynb module which ignores cell magics, like this:
+- First, install the ipynb module, which will let you import this notebook as if it were a Python module.  You need to install a specific fork of the ipynb module which ignores cell magics, because the getrusage_background_sampler_magic notebook contains several test/demo cell-magics that cause a syntax error using the official version of the ipynb module.  You can do it like this:
 ```bash
 pip install 'git+https://github.com/mister-average/ipynb.git@mister-average-ignore-cell-magic'
 ```

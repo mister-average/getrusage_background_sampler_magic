@@ -8,6 +8,7 @@ setup(
     author='mister-average',
     author_email='mister_person@averageaddress.com',
     license='BSD',
-    data_files=[('', ['getrusage_background_sampler_magic.ipynb'])],
+    #data_files=[('', ['getrusage_background_sampler_magic.ipynb'])],
+    include_package_data=True,
     python_requires='>=3.9'
 )

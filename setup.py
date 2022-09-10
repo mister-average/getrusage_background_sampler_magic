@@ -8,6 +8,6 @@ setup(
     author='mister-average',
     author_email='mister_person@averageaddress.com',
     license='BSD',
-    date_files=[('crumb', ['getrusage_background_sampler_magic.ipynb'])],
+    data_files=[('crumb', ['getrusage_background_sampler_magic.ipynb'])],
     python_requires='>=3.9'
 )

@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+import site
 
 setup(
     name='getrusage_background_sampler_magic',
@@ -8,7 +9,6 @@ setup(
     author='mister-average',
     author_email='mister_person@averageaddress.com',
     license='BSD',
-    #data_files=[('', ['getrusage_background_sampler_magic.ipynb'])],
-    include_package_data=True,
+    data_files=[(site.getsitepackages(), ['getrusage_background_sampler_magic.ipynb'])],
     python_requires='>=3.9'
 )

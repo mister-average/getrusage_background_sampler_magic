@@ -4,6 +4,10 @@
 pip install 'git+https://github.com/mister-average/ipynb.git@mister-average-ignore-cell-magic'
 ```
 - Also make sure that Pandas and Plotly are installed<br><br>
+- Then, install this module, like this:
+```bash
+pip install 'git+https://github.com/mister-average/getrusage_background_sampler_magic.git'
+```
 - Then in your notebook, import everything from the getrusage_background_sampler_magic module like this:
 ```python
 from ipynb.fs.defs.getrusage_background_sampler_magic import *

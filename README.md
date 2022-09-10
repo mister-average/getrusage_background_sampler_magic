@@ -20,6 +20,8 @@ from ipynb.fs.defs.getrusage_background_sampler_magic import *
  - The first floating point argument is the time in seconds between samples
  - The second string argument is the name you wish to give to the variable that will hold the dataframe of data samples that are collected.  You can perform further analysis of that dataframe in subsequent cells of your notebook.
     
+- The first of the two charts displays normalized values, because the scale of the units involved is vastly different, so you can't really see relationships between the different metrics unless they are normalized.  The second of the two charts shows the raw values.
+
 
 **In case** your noteboook crashes, take note of the recovery file statement that is printed out just as your cell starts executing.  It will look like this:
 ```
